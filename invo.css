@@ -1,0 +1,355 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: +5;
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    box-shadow: 2px, 8px, 5px, 8px gray;
+    flex-wrap: wrap;
+    box-shadow: 0px 0.5px 3px gray;
+}
+
+.logo {
+    background-image: url("./logo.jpg");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+
+.navbar1 {
+    display: flex;
+}
+
+.nav-1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-left: 4rem;
+    font-family: sans-serif;
+
+}
+
+.nav-1 a {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    padding: 5px 20px;
+    font-size: 20PX;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.nav-1 a:hover {
+    color: white;
+    background-color: rgb(141, 65, 235);
+}
+
+.button {
+    margin-top: 11px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 60%;
+    border: none;
+    font-weight: bold;
+    flex-wrap: wrap;
+    background: none;
+}
+
+.about {
+    margin-left: 17rem;
+    width: 120px;
+}
+
+button>a {
+    display: inline-block;
+    height: 74%;
+    width: 100%;
+    text-decoration: none;
+    padding-top: 10px;
+    border-radius: 4px;
+    background-color: rgba(142, 65, 235,1);
+    color: #000;
+}
+
+button>a:hover {
+    color: white;
+    background-color: rgb(136, 5, 251);
+}
+
+.nav-element {
+    text-align: center;
+}
+.nav-element>a{
+   margin-left: 4rem;
+}
+.nav-element:hover {
+    transition: 1s ease-in-out;
+}
+/*....body1...*/
+.image1{
+    background-color: white;
+    width: 40%;
+    height: 423.7px;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+}
+.image2{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-blend-mode: multiply;
+    background-image: url("https://img.freepik.com/free-vector/queue-people-with-paper-ballot-boxes-voting-day-electorate-poll-flat-vector-illustration-election-campaign-politics-choice_74855-13213.jpg?w=900&t=st=1698321473~exp=1698322073~hmac=3acad6aeb77fe23f07e3494a8b5509dba9ce64c00a03bb78e80d91aa918e5420");
+    height: 423.5px;
+    width: 55%;
+    background-size: cover;
+    
+}
+.class1{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.image1 h1{
+    padding: 20px;
+    padding-top: 10%;
+    padding-left: 10%;
+    color: rgb(6, 5, 5);
+}
+.image1 p{
+    color: rgb(11, 10, 10);
+    padding-left: 10%;
+}
+/*.....body2......*/
+.main-class2{
+    width: 100%;
+    height: 480px;
+    flex-wrap: wrap;
+ 
+}
+.class2{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 400px;
+   background-image: url("https://img.freepik.com/free-vector/online-electronic-voting_74855-4448.jpg?w=1060&t=st=1698389572~exp=1698390172~hmac=9e2fe7f8f59e73d362f7f2247fdde50f2eef7a725bc81b9a4b00ba1706891cad");
+   background-size: cover;
+   background-color: gray;
+   background-blend-mode: multiply;
+    border-radius: 10px;
+}
+
+.working{
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.working a:hover{
+    color: rgb(9, 9, 224);
+}
+.working a{
+    text-decoration: none;
+    color:white;
+}
+
+.main-box{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.boxes{
+    margin-top: -40px;
+    width: 200px;
+    height: auto;
+    background-color: rgba(255, 255, 255);
+    /* background-blend-mode: multiply; */
+    box-shadow: 0px 0px 10px 0px rgb(35, 34, 34);
+    cursor:context-menu;
+    transition: 1.2s;
+}
+.boxes:hover{
+    transform: scale(1.2);
+}
+.boxes, p,i{
+    text-align: center;
+    
+}
+.box5>p{
+    margin-top: -15px;
+}
+i{
+    margin-top: 10px;
+    font-size: 30px;
+    color: brown;
+}
+/*...body3...*/
+.voting-option{
+    width: 90%;
+    height: 450px;
+    background-color: rgb(98, 129, 197);
+    margin-left: 5%;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+.voting1{
+    text-align: center;
+    padding-top: 15px;
+}
+.mainbox2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.boxa1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgb(35, 34, 34);
+}
+.boxb1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 120px;
+    box-shadow: 0px 0px 10px 0px rgb(66, 64, 64);
+}
+.boxc1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgb(35, 34, 34);
+}
+.boxa-1,.boxb-1{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    background-color: rgb(143, 197, 179);
+    clip-path: polygon(0% 35%, 60% 36%, 60% 0%, 100% 50%, 60% 100%, 61% 63%, 0% 65%);
+    /* clip-path:  polygon(0 43%, 59% 43%, 60% 0%, 100% 50%, 60% 100%, 60% 67%, 0 67%); */
+
+}
+.boxb-1:hover{
+    background-color: rgb(196, 234, 236);
+}
+.boxa-1:hover{
+    background-color: rgb(196, 234, 236);
+}
+.boxa-1{
+    margin-top:120px;
+}
+.boxb-1{
+    margin-top: 120px;
+}
+.box111{
+    transform: rotate(25deg);
+}
+.box222{
+    transform: rotate(-20deg);
+}
+
+
+
+/* Copyright Notice */
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+.copyright{
+    color: white;
+}
+hr{
+    margin-top: 80px;
+}
+.para1{
+    margin: 50px 20px;
+    font-size: 15px;
+}
+.pr1{
+    margin-top: 70px;
+}
+.voting-option h2{
+    border-bottom: 2px solid white;
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+}
+.section4 {
+    margin-top: 100px;
+    width: 100vw;
+    height: 65vh;
+    font-weight: 80;
+    background-color: rgba(23, 84, 163, 0.4);
+    color: white;
+}
+
+.c>h3 {
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+li {
+    list-style: none;
+    font-weight: 80;
+
+}
+
+.d>h3 {
+    position: relative;
+    left: 45px;
+    font-size: 30px;
+}
+
+.section5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.e>h3 {
+    position: relative;
+    left: 45px;
+    font-size: 30px;
+}
+
+.f>h3 {
+    position: relative;
+    left: 45px;
+    font-size: 30px;
+}
+
+.ab {
+    margin-left: 10px;
+}
+i{
+    font-size: medium;
+    margin-right: 7px;
+}
+#back{
+    position: fixed;
+    left: 40px;
+    top: 85vh;
+}
+#back>i{
+    margin-top: 12px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(125, 17, 240);
+    text-align: center;
+    padding: 20px;
+}

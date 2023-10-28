@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Voting</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar1">
+                <div class="logo">
+
+                </div>
+                <div class="nav-1">
+                    <div class="home nav-element">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="nomination nav-element">
+                        <a href="nomination.html">Nomination</a>
+                    </div>
+                    <div class="Feature nav-element">
+                        <a href="invo3.html">Features</a>
+                    </div>
+                    <div class="Feature nav-element">
+                        <a href="voting.html">Voting</a>
+                    </div>
+
+                </div>
+                <div class="about">
+                    <button class="button"><a href="about.html">About Us</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <form class="form-box">
+        <label for="fname">ID :</label>
+        <input type="text" placeholder="enter your ID" id="fname" name="fname"><br>
+        <div id="main-card">
+            <div class="card">
+                <img src="./mithilesh.jpg" alt=""><br>
+                <p class="voting">No. of Vote:
+                <p class="count" id="count1"></p>
+                </p>
+                <button type="button" class="vote-btn" onclick="submit1()">Vote</button>
+            </div>
+            <div class="card">
+                <img src="./piyush.png" alt=""><br>
+                <p class="voting">No. of Vote:
+                <p class="count" id="count2"></p>
+                </p>
+                <button type="button" class="vote-btn" onclick="submit2()">Vote</button>
+            </div>
+        </div>
+    </form>
+    <a href="index.html" id="back"><i class="fa-solid fa-backward" style="color: #ffffff;"></i></a>
+    <script>
+        let form = document.querySelector("form");
+        let voting1 = document.querySelector("#count1");
+        let voting2 = document.querySelector("#count2");
+        let ev = document.querySelector("#end");
+        let count1 = 0;
+        let count2 = 0;
+        let input = document.querySelector("input");
+
+        function submit1() {
+            let conf = confirm("are you sure");
+            if (conf == true) {
+                console.log("Voted to Mithilesh")
+                console.log(`ID:${input.value}`);
+
+            }
+            count1 = count1 + 1;
+            voting1.innerHTML = count1;
+        }
+
+        function submit2() {
+            let conf = confirm("are you sure");
+            if (conf == true) {
+                console.log("Votted to Piyush")
+                console.log(`ID:${input.value}`);
+
+            }
+            count2 = count2 + 1;
+            voting2.innerHTML = count2;
+        }
+
+    </script>
+</body>
+
+</html>
